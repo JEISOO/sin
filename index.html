@@ -54,11 +54,11 @@
       gnbView.addEventListener('click', () => {
         if ( state == 1 ) {
             gnb.style.right = 0;
-            state == 0;
+            state = 0;
         }
         else if ( state == 0 ) {
             gnb.style.right = '-200px';
-            state == 1;
+            state = 1;
         }
         console.log(state);
       })
